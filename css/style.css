@@ -384,22 +384,29 @@
         top: 0;
         left: 0;
         padding: 20px 8%;
-        display: flex;
         align-items: center;
         justify-content: space-evenly;
+        display: grid;
+        flex-direction: wrap;
+        align-items: center;
     }
     
     .logo{
         width: 100px;
         align-items: center;
-        display: flex;
-        position: absolute;
-        margin-left: 20%;
+        margin-left: 35%;
+
 
     }
     
     .header ul li{
-        font-size: 0px;
+        font-size: 15px;
+        margin: 5px;
+        list-style: none;
+        font-family: 'Quicksand', sans-serif;
+        display: inline-block;
+        justify-content: space-between;
+
     }
 
 
@@ -455,13 +462,14 @@
 .container {
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-      width: 500px;
-      height: 500px;
-      margin: auto;
+    width: 500px;
+    height: 900px;
+    margin: auto;
+
   }
 
 
