@@ -510,8 +510,8 @@ border-color: #da1d66;
     }
     
     .header ul li{
-        font-size: 15px;
-        margin: 5px;
+        font-size: 13px;
+        margin: 2px;
         list-style: none;
         font-family: 'Quicksand', sans-serif;
         display: inline-block;
@@ -576,8 +576,9 @@ border-color: #da1d66;
     gap: 0px 0px;
     grid-auto-flow: row;
     width: 300px;
-    height: 500px;
+    height: 400px;
     margin: 1px;
+    padding: auto;
 
   }
 
