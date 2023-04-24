@@ -362,6 +362,115 @@
     padding: 25px;
     color: #303030;
 }
+ /* Videos */
+
+.video-page{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+
+.reproductor{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px;
+}
+
+.reproductor h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    color: #00FF7F;
+
+}
+
+.reproductor p{
+    font-family: 'Quicksand', sans-serif;
+    width: 200px;
+    text-align: left;
+}
+
+.motivacion{
+    margin: 20px;
+}
+
+
+/* Sign In Booststrap */
+
+.mosca{
+    width: 90px;
+    margin: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    align-content: center;
+ 
+   
+}
+
+.imagenlateral{
+    background-color: #000000;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+.sign-in{
+    width: 100vh;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    align-items: center;
+
+}
+
+.sesion{
+    margin: 10%;
+    color: #303030;
+}
+
+.form-label{
+    color: #FF3985;
+
+}
+
+
+.form-control{
+        display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.btn-primary{
+
+background-color:#FF3985;
+border-color: #da1d66;
+}
+
+.btn-primary:hover{
+    background-color: #00FF7F;
+    border-color: #238654;
+}
 
 
 
@@ -538,5 +647,37 @@
     margin-left: 90px;
     margin-right: 90px;
 }  
+
+ /* Videos */
+
+ .video-page{
+    display: flex;
+    
+    flex-direction: column-reverse;
+}
+
+.reproductor{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.reproductor h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    color: #00FF7F;
+
+}
+
+.reproductor p{
+    font-family: 'Quicksand', sans-serif;
+    width: 200px;
+}
+
+.motivacion{
+background-image: url(https://www.youtube.com/watch?v=MXcQAHdtn3I);
+}
 
 }
